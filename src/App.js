@@ -13,7 +13,9 @@ function App() {
     <div className="container">
       <Navbar />
 
-
+      <div className="hero">
+        {/* Dentro de este div va una img y 'x' informacion*/}
+      </div>
       {/* En esta seccion va un div con cartas informativas */}
 
       <h1 className='title-cards'>Ultimos 10 destacados</h1>
