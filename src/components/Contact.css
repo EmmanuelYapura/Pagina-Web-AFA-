@@ -1,0 +1,27 @@
+.container-contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-text p{
+    margin: 40px 0;
+}
+
+.content-form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+
+.content-form input{
+    margin: 10px 6px;
+    width: 50%;
+}
+
+.content-form button{
+    width: 70px;
+    margin-left: 112px;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.barra-nav{
+    background-color: rgba(241, 237, 237, 0.411);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 2em; 
+    font-weight: bold;
+    color: black;
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.nav-menu-item{
+    list-style: none;
+}
+
+.nav-menu-link{
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    color: black;
+}
+
+.nav-menu-link:hover{
+    color: red;
+}

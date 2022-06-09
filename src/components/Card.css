@@ -1,0 +1,23 @@
+.body-card{
+    height: 500px;
+    width: 350px;
+    border: 1px solid black;
+}
+
+.circle{
+    border-radius: 20%;
+}
+
+.info-card ul{
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
+.info-card ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+h3{
+    text-align: center;
+}
