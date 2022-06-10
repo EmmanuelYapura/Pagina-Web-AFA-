@@ -4,7 +4,7 @@ export function Footer() {
 	return (
 		<div className='container-footer'>
 			<footer>
-				<p>&copy; T'Squishy</p>
+				<p>&copy; Seleccion_Argentina</p>
 			</footer>
 		</div>
 	)
