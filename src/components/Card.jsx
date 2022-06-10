@@ -7,7 +7,7 @@ export function Card({ type , image , fullName, games, goals, lastClub}) {
 				<img className={type} src={require(`../assets/${image}.jpg`)} alt="" width="100%" height="350px" />
 			</header>
 			<div className='info-card'>
-			<h3>{fullName}</h3>
+			<h3 className='title-info-card'>{fullName}</h3>
 				<ul>
 					<li>Partidos jugados: {games}</li>
 					<li>Goles: {goals}</li>

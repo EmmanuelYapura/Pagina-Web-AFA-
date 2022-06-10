@@ -12,16 +12,33 @@
     display: flex;
     flex-direction: column;
     width: 350px;
+    margin-top: 30px;
 }
 
 
 .content-form input{
     margin: 10px 6px;
     width: 50%;
+    height: 24px;
 }
 
 .content-form button{
-    width: 70px;
-    margin-left: 112px;
+    width: 80px;
+    height: 24px;
+    margin-left: 103px;
+    margin-top: 5px;
     cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid black;
 }
+
+.content-form label{
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.contact-text-p{
+    font-size: 1.4em;
+    font-family: Lato;
+}
+
