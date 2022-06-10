@@ -14,7 +14,7 @@ function App() {
       <Navbar />
 
       <div className="hero">
-        {/* Dentro de este div va una img y 'x' informacion*/}
+        <h1>Vamos Argentina!</h1>
       </div>
       {/* En esta seccion va un div con cartas informativas */}
 

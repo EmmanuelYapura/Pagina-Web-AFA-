@@ -9,6 +9,25 @@
     
 }
 
+.hero{
+    height: 600px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(0deg,
+    rgb(0, 0, 0, 0.2),
+    rgb(0, 0, 0, 0.2)), url('./assets/contenedor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero h1{
+    font-size: 6em;
+    font-weight: bold;
+    color: white;
+}
+
 .title-cards{
     font-size: 3em;
     text-align: center;
