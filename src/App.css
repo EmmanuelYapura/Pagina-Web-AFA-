@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+
+body{
+    background-color: rgba(233, 227, 227, 0.267)
+}
+
 .container{
     width: 1400px;
     margin: auto;    
