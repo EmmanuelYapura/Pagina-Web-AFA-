@@ -4,7 +4,7 @@ export function Card({ type , image , fullName, games, goals, lastClub}) {
 	return (
 		<div className='body-card'>
 			<header>
-				<img className={type} src={require(`../assets/${image}.jpg`)} alt="" width="100%" height="350px" />
+				<img className={type} src={require(`../assets/${image}.jpg`)} id="jugador" alt="jugador" />
 			</header>
 			<div className='info-card'>
 			<h3 className='title-info-card'>{fullName}</h3>
