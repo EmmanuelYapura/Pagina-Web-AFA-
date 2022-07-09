@@ -7,9 +7,9 @@ export function Contact(){
 
         <div className='contact-text'>
 
-        <p className='contact-text-p'> <i className='contact-icon'><HiLocationMarker /></i> <b> Ubicacion: </b> texto</p>
-        <p className='contact-text-p'> <i className='contact-icon'> <HiClock /></i> <b>Horarios: </b> texto</p>
-        <p className='contact-text-p'> <i className='contact-icon'><HiPhone /></i> <b>Tel: </b>texto</p>
+        <p className='contact-text-p'> <i className='contact-icon'><HiLocationMarker /></i> <b> Ubicacion: </b> Avenida Corrientes 9, CABA</p>
+        <p className='contact-text-p'> <i className='contact-icon'> <HiClock /></i> <b>Horarios: 8 a 12 hs</b> texto</p>
+        <p className='contact-text-p'> <i className='contact-icon'><HiPhone /></i> <b>Tel: </b>011 34550092</p>
 
         </div>
         
