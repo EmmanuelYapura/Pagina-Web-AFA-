@@ -1,4 +1,6 @@
 .container-section{
+    max-width: 1400px;
+    margin: 0 auto;
     height: 600px;
     display: flex;
     justify-content: space-around;
@@ -14,8 +16,14 @@
     margin-right: 60px;
 }
 
-.container-img{
+.container-img-1{
     margin-left: 60px;
+    order: 1;
+}
+
+.container-img-2{
+    margin-left: 60px;
+    border: 1px solid black;
 }
 
 hr{

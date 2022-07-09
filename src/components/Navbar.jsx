@@ -3,7 +3,7 @@ import './Navbar.css'
 export function Navbar() {
 	return (
 		<div className="barra-nav">
-			<a href="#" className="logo">Logo</a>
+			<div className='logo'>L o g o</div>
 			{/* Aqui va un boton  */}
 			<ul className="nav-menu">
 				<li className="nav-menu-item"><a href="#" className="nav-menu-link">Item 1</a></li>

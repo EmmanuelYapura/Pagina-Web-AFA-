@@ -3,7 +3,7 @@ import { HiPhone, HiLocationMarker, HiClock } from "react-icons/hi"
 
 export function Contact(){
     return(
-        <div className='container-contact'>
+        <div className='container-contact-comp'>
 
         <div className='contact-text'>
 

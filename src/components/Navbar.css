@@ -1,12 +1,14 @@
 .barra-nav{
-    height: 70px;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .logo{
-    font-size: 2em; 
+    font-size: 3em; 
     font-weight: bold;
     color: black;
 }
@@ -22,11 +24,11 @@
 .nav-menu-link{
     text-decoration: none;
     margin-right: 15px;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-family: sans-serif;
     color: black;
 }
 
 .nav-menu-link:hover{
-    color: aqua;
+    color: #F8F9D7;
 }

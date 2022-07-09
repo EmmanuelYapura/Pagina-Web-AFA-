@@ -1,10 +1,10 @@
-.container-footer{
+.container-footer-comp{
+    max-width: 1400px;
+    margin: 0 auto;
     height: 120px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color: rgb(230, 230, 230);
-
 }
 
 footer p {
@@ -12,6 +12,6 @@ footer p {
     font-family: Lato;
     font-weight: bold;
     margin: 0;
-    color: rgb(38, 106, 184);
+    color: #F8F9D7;
     padding: 12px;
 }

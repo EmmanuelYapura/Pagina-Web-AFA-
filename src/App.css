@@ -5,17 +5,22 @@
 
 
 body{
-    background-color: rgba(233, 227, 227, 0.267)
+    background-color: #F8F9D7
 }
 
-.container{
-    width: 1400px;
-    margin: auto;    
+
+.container-navbar, .container-footer{
+    background-color: #6E85B7;
 }
 
+.container-cards-circle, .container-cards-square{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Este no debe contener un max-width ya que debe expanderse por toda la pag */
 .hero{
     height: 600px;
-    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +38,7 @@ body{
     color: white;
 }
 
+
 .title-cards{
     font-size: 3em;
     text-align: center;
@@ -46,19 +52,11 @@ body{
     justify-content: space-around;
 }
 
-.container-cards-circle{
-    height: 600px;
-    display: flex;
-    justify-content: space-around;
-    /* margin-top: 50px; */
-}
 
 .container-info{
     height: 600px;
-    width: 100%;
 }
 
 .container-contact{
     height: 350px;
-    width: 100%;
 }
