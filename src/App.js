@@ -34,12 +34,17 @@ function App() {
         </div>
       </div>
 
+      <hr />
+
       {/* Seccion de noticia img con info */} {/* Hecho */}
       <div className='container-info'>
         <Section position={1} image='copa-mundo' rivalsGroup={['Polonia', 'Mexico', 'Arabia Saudita']} candidates={['Brasil', 'Belgica', 'Francia']}/>
       </div>
 
       {/* En esta seccion van las cartas con border */} {/* Hecho */}
+
+      <hr />
+
 
       <div className='container-cards-circle'>
         <h1 className='title-cards'>Goleadores Historicos</h1>
@@ -52,6 +57,9 @@ function App() {
           />
         </div>
       </div>
+
+      <hr />
+
 
       {/* Seccion de noticia img con info */} {/* Hecho */}
       <div className='container-info'>
